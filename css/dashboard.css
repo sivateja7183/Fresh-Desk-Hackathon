@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: #F0FBF5
+}     
+  
+.sidebar {
+    height: 100%;
+    width: 7%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(20, 20, 20);
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style the main content */
+  .main {
+    margin-left: 80px; 
+    padding: 0px 10px;
+  }
+  
+
+  .sectionTitle{
+      background-color: #818181;
+  }
+
+  .show-error{
+    display:block
+  }
+  .error-field{
+    display:none
+  }

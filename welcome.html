@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshDesk Clone</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card mx-auto shadow-lg">
+            <div class="card-body text-center">
+                <img class="thumbnail" src="images/logo.png" alt="logo">
+                <h2 class="card-title mt-3">FreshDesk</h2>
+                <p class="card-text">Welcome to FreshDesk, <span id="user"></span>!</p>
+                <p class="card-text text-muted">___</p>
+                <p class="card-text mt-4">What would you like to do today?</p>
+                <p class="card-text text-muted mt-3">I want to</p>
+                <div class="dropdown mt-2">
+                    <button class="btn btn-outline-dark dropdown-toggle" type="button" id="triggerId"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose an Operation
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="triggerId">
+                        <a class="dropdown-item" href="ticket.html">Create a ticket</a>
+                        <a class="dropdown-item" href="ticket.html">Delete a ticket</a>
+                        <a class="dropdown-item" href="contacts.html">Create Contact</a>
+                        <a class="dropdown-item" href="contacts.html">View Contacts</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="js/welcome.js"></script>
+</body>
+
+</html>

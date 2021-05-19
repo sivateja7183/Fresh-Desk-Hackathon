@@ -1,0 +1,12 @@
+.form-helpdesk-text{
+    width: auto;
+    padding: 15px 5px;
+    display: inline-block;
+    color: #333;
+    font-size: 1rem;
+    background-color: #f7f7f7;
+    vertical-align: top;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left: 1px solid #ccc;
+}
